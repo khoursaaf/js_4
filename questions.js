@@ -66,8 +66,8 @@ var valeurAbsolueArray = function (array) {
 }
 // math.pi permets d'avoir le nompre Pi puis apres on calcule l'aire en concatenant le reste.
 var sufaceCercle = function (rayon) {
-  var rayonBrut= Math.PI * Math.pow(rayon, 2);
-  var result = Math.round(rayonBrut)
+  var surface = Math.PI * Math.pow(rayon, 2);
+  var result = Math.round(surface)
     return result;
 }
 // math.sqrt renvoie la racine carré
